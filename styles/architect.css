@@ -8,6 +8,10 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+.text-light-grey{
+    color: #727272;
+}
  /* Explore More Button */
 .btn-primary{
     border-radius: 8px;
@@ -62,9 +66,7 @@ nav li a{
     color:#131313;
 
 }
-.banner-description{
-    color: #727272;
-}
+
 
 /* Making it responsive from inpect */
 .banner img{
@@ -72,31 +74,13 @@ nav li a{
     width: 100%;
 }
  
-/* Responsive Media Queries */
-/* Mobile Device */
-@media screen and (max-width: 576px){
-    header{
-      padding: 50px;  
-    }
-    nav {
-        flex-direction: column;
-    }
-}
-/* Tablet or Medium devices */
-@media screen and (min-width: 576px) and (max-width: 960px){
-    header{
-        padding: 50px;
-    }
-    nav {
-        flex-direction: column;
-    }
-}
+
 
 /* Main Styles */
 
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* Teams Styles */
 .teams-container{
@@ -116,11 +100,32 @@ main{
     font-size: 2.8rem;
 }
 .teams-title .quick-list{
-    color: #727272;
+    
     font-weight: 500;
 
 }
 .teams-title .text-features{
     color: #FF900E;
     font-weight: 700;
+}
+
+
+/* Responsive Media Queries */
+/* Mobile Device */
+@media screen and (max-width: 576px){
+    header{
+      padding: 50px;  
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+/* Tablet or Medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
 }
