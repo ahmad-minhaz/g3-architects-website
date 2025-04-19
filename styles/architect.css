@@ -233,11 +233,12 @@ main{
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px){
-    header{
+    /* header{
       padding: 50px;  
-    }
+    } */
     .navbar,
     .nav-links,
+    .features,
     .teams{
         flex-direction: column;
     }
@@ -254,7 +255,7 @@ main{
     }
     .sponsor-companies{
         justify-items: center;
-        gap: 50px;
+        gap: 24px;
     }
 
     .our-features{
